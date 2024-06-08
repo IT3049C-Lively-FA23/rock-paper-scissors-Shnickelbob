@@ -7,16 +7,17 @@
 Instructions to this assignment can be found [here](https://reedws.github.io/IT3049C/coursework/assignments/rock-paper-scissors/).
 - [x] update the assignment checks above to the correct link. - Done Automatically
 ## Checklist:
-- [ ] update the assignment checks above to the correct link
+- [x] update the assignment checks above to the correct link
 - [ ] All tests are passing
-- [ ] filled out the self-evaluation.
-- [ ] filled out the self-reflection.
+- [x] filled out the self-evaluation.
+- [x] filled out the self-reflection.
 
 ## Self-Evaluation: 
 how many points out of 20 does your team deserve on this assignment. Revise the assignment grading guideline and assignment rubrics for guidance.
-
+8pts. 10 late points and 2.styling.test retruned 3 errors
 ## Team Reflection:
 - Where did you encounter struggles today, and what did you do to deal with it?
-
+I encountered numerous struggles regarding the javascript files, all involving small errors like using username instead of userName or ' instead of `. troubleshooting really just involved rereading my code and trying to find solutions on the internet. additionally, I could not get bootstrap to work properly, even though it points to the correct directory. 
 
 ### How long it took us to finish this?
+2-3 hours
