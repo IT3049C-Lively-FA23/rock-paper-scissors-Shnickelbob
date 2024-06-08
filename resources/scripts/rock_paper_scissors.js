@@ -45,13 +45,14 @@ class RockPaperScissors {
    * @param {string} userSelection user selection. Can only be one of the following values [`rock`, `paper`, `scissors`]
    */
   play(userSelection){
-    cpuselect = this.generateCPUResponse();
+    let cpuselect = this.generateCPUResponse();
     let outcome = this.determineWinner(userSelection, cpuselect);
     if(outcome == "win")
       this.score.user ++;
     else if(outcome == "lose")
       this.score.cpu ++;
-    this.gameHistoryLog.push("${this.username} selected ${userSelection}, CPU selected ${cpuselect}: ${this.username} ${outcome}")
+    this.gameHistoryLog.push(`${this.username} selected ${userSelection}, CPU selected ${cpuselect}: ${this.username} ${outcome}`)
+    console.log("test")
   }
 
 }
